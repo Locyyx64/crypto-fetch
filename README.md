@@ -4,3 +4,6 @@ Note: It's development is still in progress, so do not be surprised, if you come
 
 Unfortunately, it can only search 100 cryptocurrencies at max, because I haven't figured out what to do with the CAPTCHA yet.
 Enjoy! ;)
+
+** _Installing_ **
+First of all,
