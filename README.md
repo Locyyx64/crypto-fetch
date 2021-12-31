@@ -19,7 +19,11 @@ First of all, make sure that you have python3 and python3-pip installed.
   sudo pacman -Syu
   sudo pacman -S python python-pip
   ```
-Next, download the packages, that are listed in **_requirements.txt_**.
+Next, clone the repo:
+  ```
+  git clone https://github.com/Locyyx64/crypto-fetch.git
+  ```
+After that, download the packages, that are listed in **_requirements.txt_**.
   ```
   pip install -r path/to/requirements.txt
   ```
