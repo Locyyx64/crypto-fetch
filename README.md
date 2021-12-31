@@ -21,7 +21,17 @@ First of all, make sure that you have python3 and python3-pip installed.
   ```
 Next, download the packages, that are listed in **_requirements.txt_**.
   ```
-  pip install -r /path/to/requirements.txt
+  pip install -r path/to/requirements.txt
   ```
-Now, download the **Mozilla webdriver** (geckodriver), and add it to your **/usr/local/bin** directory. (If you can't put it here, put it in one of the other $PATH directories, and make sure to change the directory to it in the code itself.) <br />
-If you
+Now, download the **Mozilla webdriver** (geckodriver), and add it to your **/usr/local/bin** directory. (If you can't put it here, put it in one of the other $PATH directories, and make sure to change the directory to it in the code itself.)
+
+### _Configurations_ <br />
+If you want to run the command from the terminal, you can do:
+  ```
+  chmod +x path/to/crypto.py
+  ```
+And after that, you can run it from the terminal like this:
+  ```
+  ./path/to/crypto.py
+  ```
+If you want to make it a Bash command, you can add an alias to the script in your **.bashrc** file.
