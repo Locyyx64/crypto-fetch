@@ -21,5 +21,5 @@ First of all, make sure that you have python3 and python3-pip installed.
   ```
 Next, download the packages, that are listed in **_requirements.txt_**.
   ```
-  pip install -r _/path/to/requirements.txt_
+  pip install -r /path/to/requirements.txt
   ```
