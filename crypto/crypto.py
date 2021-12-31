@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 
-from sys import stdin, stdout
 import math
 import selenium.common.exceptions
 from selenium import webdriver
@@ -11,9 +10,6 @@ from selenium.webdriver.common.by import By
 
 options = Options()
 options.headless = True
-#options.add_experimental_option("excludeSwitches", ["enable-automation"])
-#options.add_experimental_option('useAutomationExtension', False)
-#options.add_argument("--disable-blink-features=AutomationControlled")
 driver = webdriver.Firefox(options=options, service=Service('/usr/local/bin/geckodriver'))
 
 def get_max(list):
