@@ -6,8 +6,8 @@ Unfortunately, it can only search 100 cryptocurrencies at max, because I haven't
 Enjoy! ;)
 
 ## _Installing_ <br />
-First of all, make sure that you have python3 and python3-pip installed.__
-  ### If you are using a Ubuntu/Debian based Linux distribution:__
+First of all, make sure that you have python3 and python3-pip installed.
+  ### If you are using a Ubuntu/Debian based Linux distribution:
   ```
   sudo apt update
   sudo apt install python3 python3-pip
