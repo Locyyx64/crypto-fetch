@@ -23,3 +23,4 @@ Next, download the packages, that are listed in **_requirements.txt_**.
   ```
   pip install -r /path/to/requirements.txt
   ```
+Now, download the Mozilla webdriver (geckodriver), and add it to your **/usr/local/bin** directory. (If you can't put it here, put it in one of the other $PATH directories, and make sure to change the directory to it in the code itself.)
