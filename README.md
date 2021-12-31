@@ -5,7 +5,7 @@ Note: It's development is still in progress, so do not be surprised, if you come
 **Only usable on a Linux machine. If you are on Windows, change the directory to the webdriver in the code.**
 
 Unfortunately, it can only search 100 cryptocurrencies at max, because I haven't figured out what to do with the CAPTCHA yet.
-Enjoy! ;)
+***Enjoy! ;)***
 
 ## _Installing_ <br />
 First of all, make sure that you have python3 and python3-pip installed.
@@ -18,4 +18,8 @@ First of all, make sure that you have python3 and python3-pip installed.
   ```
   sudo pacman -Syu
   sudo pacman -S python python-pip
+  ```
+Next, download the packages, that are listed in **_requirements.txt_**.
+  ```
+  pip install -r _/path/to/requirements.txt_
   ```
